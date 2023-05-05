@@ -1,0 +1,37 @@
+@charset 'UTF-8';
+
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', sans-serif;
+    font-size: 18px;
+    background-color: #289688;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Header h1 {
+    color: #FDEB3C;
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+    margin: .5rem ;
+}
+
+.Main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.Main section figure {
+    padding: 1rem;
+}
+
+.Main img{
+    border: .5rem solid #ffffff;
+    margin: .25rem;
+}

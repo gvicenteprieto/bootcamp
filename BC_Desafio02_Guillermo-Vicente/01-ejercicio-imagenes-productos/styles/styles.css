@@ -1,0 +1,160 @@
+@charset 'UTF-8';
+
+html {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.Body {
+    background-color: #273238;
+    color: #bcc1c3;
+    font-size: .75rem;
+    text-align: justify;
+}
+
+.Header {
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+}
+
+.Header h1 {
+    font-family: 'Impact', 'Charcoal', sans-serif;
+    color: #698593;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.Main article {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 320px) {
+    .Body {
+        font-size: 1.12rem;
+        max-width: 70vw;
+    }
+    .Header {
+        margin: 80px 0px 80px 0px;
+    }
+    .Header h1 {
+        font-size: 4rem;
+    }
+    .Main section {
+        max-width: 50vw;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h2::first-letter {
+        font-size: 2.5rem;
+    }
+    img {
+        min-width: 90vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .Body {
+        font-size: 1.12rem;
+    }
+    .Header {
+        margin: 80px 0px 80px 0px;
+    }
+    .Header h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h2::first-letter {
+        font-size: 2.5rem;
+    }
+    img {
+        min-width: 90vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .Body {
+        font-size: 1.1rem;
+    }
+    .Header h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h2::first-letter {
+        font-size: 2.5rem;
+    }
+    .aspiradoras img {
+        border: .5rem solid #d8c0b6;
+    }
+    .celulares img {
+        border: .5rem solid #A1C1CB;
+    }
+    .consolas img {
+        border: .5rem solid #BCBDBF;
+    }
+    .home-theaters img {
+        border: .5rem solid #8D94A1;
+    }
+    .televisores img {
+        border: .5rem solid #A7A395;
+    }
+    img {
+        min-width: 60vw;
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .Body {
+        font-size: 1.25rem;
+    }
+    .Header h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    h2::first-letter {
+        font-size: 3rem;
+    }
+    .aspiradoras img {
+        border: .5rem solid #d8c0b6;
+    }
+    .celulares img {
+        border: .5rem solid #A1C1CB;
+    }
+    .consolas img {
+        border: .5rem solid #BCBDBF;
+    }
+    .home-theaters img {
+        border: .5rem solid #8D94A1;
+    }
+    .televisores img {
+        border: .5rem solid #A7A395;
+    }
+    img {
+        min-width: 50vw;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width: 2100px) {
+    .Body {
+        font-size: 1rem;
+    }
+    .Header h1 {
+        font-size: 4rem;
+    }
+    h2::first-letter {
+        font-size: 3rem;
+    }
+    img {
+        min-width: 25vw;
+    }
+}
